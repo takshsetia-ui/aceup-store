@@ -25,6 +25,7 @@ export function Header() {
     { label: "FLOOR ART", href: "/floor-art" },
     { label: "OUR STORY", href: "/about" },
     { label: "MATERIALS & CRAFT", href: "/craft" },
+    { label: "JOURNAL", href: "/journal" },
     { label: "FAQ", href: "/faq" },
     { label: "CONTACT", href: "/contact" },
   ];

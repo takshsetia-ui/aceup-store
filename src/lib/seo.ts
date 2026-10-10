@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 
 export const SITE_CONFIG = {
   name: "ACEUP",
-  title: "ACEUP | Not A Rug Brand. Floor Art.",
-  description: "ACEUP is an Indian Gen-Z floor-art brand creating statement rugs for bedrooms, gaming setups, apartments, and creative spaces. 1500 GSM digital print floor art.",
+  title: "ACEUP | Premium Statement Rugs & Floor Art India",
+  description: "ACEUP is India's premium Gen-Z floor art brand, specializing in streetwear-inspired statement rugs for gaming setups, aesthetic bedrooms, and hype spaces. 1500 GSM digital print quality.",
   url: "https://aceup.store",
   ogImage: "https://aceup.store/assets/brand/wordmark-black-bg.png",
   twitterHandle: "@aceup_store",
