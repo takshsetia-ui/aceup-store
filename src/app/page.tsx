@@ -1,13 +1,10 @@
-import { HeroSection } from "@/components/sections/HeroSection";
-import { ManifestoSection } from "@/components/sections/ManifestoSection";
-import { FeaturedArtSection } from "@/components/sections/FeaturedArtSection";
-import { ImmersiveMomentSection } from "@/components/sections/ImmersiveMomentSection";
-import { CollectionStorySection } from "@/components/sections/CollectionStorySection";
-import { MaterialSection } from "@/components/sections/MaterialSection";
-import { RoomsSection } from "@/components/sections/RoomsSection";
-import { BrandStatementSection } from "@/components/sections/BrandStatementSection";
-import { SeenOnFloorSection } from "@/components/sections/SeenOnFloorSection";
-import { DropClubSection } from "@/components/sections/DropClubSection";
+import { constructMetadata } from "@/lib/seo";
+
+export const metadata = constructMetadata({
+  title: "ACEUP | Not A Rug Brand. Floor Art – Premium Statement Rugs",
+  description: "ACEUP is India's Gen‑Z floor‑art brand, offering premium streetwear‑inspired rugs for gaming setups, aesthetic bedrooms, and creative spaces. 1500 GSM digital print, anti‑skid backing.",
+  canonicalUrl: "https://aceup.store/",
+});
 
 export default function HomePage() {
   return (
